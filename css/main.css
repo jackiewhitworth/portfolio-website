@@ -1,0 +1,189 @@
+/***** BASE STYLES *****/
+<body> {
+  font-family: 'Cabin', ;
+  color: #095256;
+}
+
+#header {
+  height: 800px;
+  padding-top: 50px;
+}
+
+#work {
+  height: 1000px;
+}
+
+#about {
+  height: 700px;
+}
+
+#contact {
+  height: 450px;
+}
+
+/*****GRID*****/
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.half-width {
+  width: 600px;
+  float: left;
+  }
+
+.third-width {
+  width: 400px;
+  float: left;
+  }
+
+/*****HEADER*****/
+header {
+  height: 800px;
+  width: 1400px;
+  background: url('../img/hero.png');
+  background-size: cover;
+  margin: 0 auto;
+  }
+
+header h1 {
+  padding: 150px 0 0 0;
+  font-family: 'Cabin', bold;
+  font-size: 60px;
+  color: #63213c;
+  text-align: center;
+  }
+
+header h2 {
+  font-family: 'Cabin', bold;
+  font-size: 48px;
+  color: #30297a;
+  text-align: center;
+  }
+
+/*****WORK*****/
+
+#work {
+  background-color: #f3ead0;
+  width: 1400px;
+  margin: 0 auto;
+}
+
+#work .full-width {
+  height: inherit;
+  padding: 0 100px;
+}
+
+#work h3 {
+  font-family: 'Bitter', bold;
+  font-size: 48px;
+  color: #095256;
+  text-align: center;
+  padding-top: 25px;
+  margin: 0 auto;
+}
+
+#work .half-width {
+  height: 400px;
+  padding-top: 15px;
+}
+
+#work h4 {
+  font-family: 'Bitter', bold;
+  font-size: 24px;
+  color: #095256;
+}
+
+#work p {
+  font-family: 'Cabin', ;
+  font-size: 24px;
+  color: #095256;
+}
+
+/*****ABOUT*****/
+#about .full-width {
+  height: inherit;
+  background-color: #63213c;
+  padding: 25px 100px;
+  margin: 0 auto;
+}
+
+#about h3 {
+  font-family: 'Bitter', bold;
+  font-size: 48px;
+  color: #f3ead0;
+  text-align: center;
+  line-height: 0px;
+  padding-bottom: 48px;
+}
+
+#about h4 {
+  font-family: 'Cabin', ;
+  font-size: 30px;
+  color: #f3ead0
+}
+
+#about img {
+  margin-left: 50px;
+}
+
+#about p {
+  font-family: 'Cabin', ;
+  font-size: 30px;
+  color: #f3ead0;
+  padding-right: 50px;
+}
+
+/*****CONTACT*****/
+#contact .full-width {
+  width: 1200px;
+  background-color: #ac8f39;
+  clear: both;
+  padding: 0 100px;
+}
+
+
+#contact h3 {
+  font-family: 'Bitter', bold;
+  font-size: 48px;
+  color: #63213c;
+  text-align: center;
+  padding-top: 25px;
+}
+
+#contact h4 {
+  font-family: 'Cabin', ;
+  font-size: 30px;
+  color: #63213c;
+  text-align: center;
+}
+
+#contact p {
+  font-family: 'Cabin', ;
+  font-size: 30px;
+  color: #63213c;
+  text-align: center;
+}
+
+#contact #email-address {
+  font-family: 'Cabin', ;
+  font-size: 24px;
+  color: #63213c;
+  text-decoration: none;
+  padding-left: 50px;
+ }
+
+#contact ul {
+  padding-left: 114px;
+}
+
+ #contact ul li {
+   display: inline-block;
+   margin: 0 12px;
+     }
+
+ #contact #Copyright {
+   padding: 100px 0 12px 0;
+   clear: both;
+   font-size: 14px;
+ }
